@@ -1,4 +1,4 @@
-Servicios UDP, Transmisión de Video mediante Sockets y UDP Multicast
+# Servicios UDP, Transmisión de Video mediante Sockets y UDP Multicast
 
 Este repositorio contiene el desarrollo de las **Prácticas 6 y 7** 
 Ambas prácticas tienen como finalidad comprender el funcionamiento del **protocolo UDP (User Datagram Protocol)** dentro de la capa de transporte, mediante la creación de aplicaciones prácticas orientadas a la comunicación en red y la transmisión de datos en tiempo real.
@@ -17,8 +17,8 @@ Desarrollar una **aplicación de transmisión de video en tiempo real** utilizan
 
 ---
 
-# Práctica 9 — UDP Multicast
-## Objetivo
+## Práctica 9 — UDP Multicast
+### Objetivo
 Enviar un mensaje desde un **cliente** hacia dos **servidores** que pertenecen a un mismo **grupo multicast**, de forma que ambos reciban simultáneamente la información enviada.  
 La comunicación se realiza utilizando la dirección **224.1.1.1** y el puerto **5004**, permitiendo comprobar cómo la **multidifusión** distribuye eficientemente un flujo de datos a varios receptores sin duplicar transmisiones.
 
